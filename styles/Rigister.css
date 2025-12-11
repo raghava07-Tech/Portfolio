@@ -1,0 +1,137 @@
+nav{
+    background-color:black;
+    padding-top:0.2px;
+    padding-bottom:18px;
+    position: sticky;
+}
+nav h2{
+  padding-left: 50px; 
+   color:transparent;
+   background:linear-gradient(to right,blue, orange, green);
+   background-clip:text;
+}
+#red{
+    color: red;
+}
+.iconmain{
+    margin-top: -20px;
+    margin-left:80%;
+}
+.iconmain a{
+    color:rgb(143, 155, 155);
+    padding-left: 15px;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+.iconmain a:hover{
+    color:gold;
+     transform: scale(1.2);
+     display: inline-block; 
+}
+.about{
+    display:inline;
+    padding-left: 40px;
+}
+#itemmain{
+    margin-left:400px;
+     margin-top: -40px;
+}
+#itemmain a{
+    text-decoration:none;
+     list-style: none;
+     color: rgb(143, 155, 155);
+}
+#itemmain a:hover{
+    color: white;
+    transform: scale(1.1);
+    display: inline-block;
+}
+section{
+   position:relative; 
+    background: radial-gradient(circle at top center,
+                black 0%,
+                rgb(93, 2, 2) 70% );
+                background-attachment: fixed;
+    padding-top: 40px;
+    padding-bottom:74px;
+}
+section h2{
+    color:rgb(143, 155, 155);
+}
+section h2:hover{
+    color:white;
+    transform: scale(1.02);
+}
+hr{
+    margin-top:-5px;
+    width:17%;
+}
+label{
+    color:greenyellow;
+}
+input{
+    color: white;
+    background-color: transparent;
+    border:2px solid rgb(143, 155, 155);
+}
+input:hover{
+    transform: scale(1.02);
+    box-shadow:2px 2px 2px red;
+}
+select{
+    border:2px solid rgb(143, 155, 155);
+    width:170px;
+    color:white;
+    background-color: transparent;
+}
+select:hover{
+    color:white;
+    transform: scale(1.02);
+    box-shadow:2px 2px 2px red;
+}
+option{
+    color:black;
+}
+#submit{
+    width:80px;
+    color:white;
+}
+#submit:hover{
+    width:120px;
+}
+#form{
+    border:2px solid rgb(117, 101, 6);
+    width:350px;
+    padding-bottom: 15px;
+    padding-top:15px;
+}
+#form:hover{
+      background: linear-gradient(125deg,rgb(255, 0, 0),rgb(5, 114, 231));
+     transition:0.07s;
+     transform: scale(1.14);
+     box-shadow:3px 3px 7px white;
+}
+#icons{
+    position: absolute;
+    color: white;
+    margin-left:75%;
+    margin-top:250px;
+    color: aqua;
+    font-size:55px;
+}
+#icons:hover{
+    color: chartreuse;
+    font-size:65px;
+    transition:1s;
+}
+#user{
+    position: absolute;
+    color: gainsboro;
+    margin-left:77%;
+    margin-top:120px;
+    font-size:80px;
+}
+#user:hover{
+    font-size:90px;
+     color:burlywood ;
+     transition:2s;
+}

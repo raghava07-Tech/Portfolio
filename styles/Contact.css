@@ -1,0 +1,107 @@
+nav{
+    background-color:black;
+    padding-top:0.2px;
+    padding-bottom:18px;
+    position: sticky;
+}
+nav h2{
+  padding-left: 50px; 
+   color:transparent;
+   background:linear-gradient(to right,blue, orange, green);
+   background-clip:text;
+}
+#red{
+    color: red;
+}
+.iconmain{
+    margin-top: -20px;
+    margin-left:80%;
+}
+.iconmain a{
+    color:rgb(143, 155, 155);
+    padding-left: 15px;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+.iconmain a:hover{
+    color:gold;
+     transform: scale(1.2);
+     display: inline-block; 
+}
+.about{
+    display:inline;
+    padding-left: 40px;
+}
+#itemmain{
+    margin-left:400px;
+     margin-top: -40px;
+}
+#itemmain a{
+    text-decoration:none;
+     list-style: none;
+     color: rgb(143, 155, 155);
+}
+#itemmain a:hover{
+    color: white;
+    transform: scale(1.1);
+    display: inline-block;
+}
+section{
+   position:relative; 
+    background: radial-gradient(circle at top center,
+                black 0%,
+                rgb(93, 2, 2) 70% );
+                background-attachment: fixed;
+    padding-top: 40px;
+    padding-bottom:72px;
+}
+#message{
+    display: flex;
+}
+section h2{
+    text-align: center;
+    color: rgb(164, 159, 159);
+}
+section h2:hover{
+    color: white;
+    transform: scale(1.02);
+}
+#item1{
+    margin-top: 20px;
+    color: rgb(167, 161, 161);
+    padding-left: 100px;
+    font-size: 17px;
+}
+#item2{
+    margin-left: 150px;
+    margin-top: 20px;
+    padding: 50px;
+    border: 2px solid rgb(106, 104, 104);
+}
+#item2:hover{
+    transform: scale(1.1);
+    border:2px solid gold;
+    background: linear-gradient(125deg,rgb(168, 3, 162),rgb(57, 135, 2),rgb(165, 2, 2),blue);
+     transition:0.07s;
+     box-shadow: 2px 2px 4px white;
+}
+#item2 input,button{
+    background-color: transparent;
+    padding: 8px;
+    border:2px solid orange;
+}
+#item3 {
+    border:2px solid black;
+    color:red;
+}
+#msg{
+    resize:both;
+    overflow: auto;
+}
+#item3:hover{
+    transform: scale(1.2);
+    box-shadow:2px 2px 2px 2px red;
+}
+#foot1{
+    background-color: black;
+    color: white;
+}

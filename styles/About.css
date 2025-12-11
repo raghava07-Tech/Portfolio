@@ -1,0 +1,117 @@
+nav{
+    background-color:black;
+    padding-top:0.2px;
+    padding-bottom:18px;
+    position: sticky;
+}
+nav h2{
+  padding-left: 50px; 
+   color:transparent;
+   background:linear-gradient(to right,blue, orange, green);
+   background-clip:text;
+}
+#red{
+    color: red;
+}
+.iconmain{
+    margin-top: -20px;
+    margin-left:80%;
+}
+.iconmain a{
+    color:rgb(143, 155, 155);
+    padding-left: 15px;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+.iconmain a:hover{
+    color:gold;
+     transform: scale(1.2);
+     display: inline-block; 
+}
+.about{
+    display:inline;
+    padding-left: 40px;
+}
+#itemmain{
+    margin-left:400px;
+     margin-top: -40px;
+}
+#itemmain a{
+    text-decoration:none;
+     list-style: none;
+     color: rgb(143, 155, 155);
+}
+#itemmain a:hover{
+    color: white;
+    transform: scale(1.1);
+    display: inline-block;
+}
+#flex1{
+    display: flex;
+}
+
+#sub1{
+    text-align: center;
+    margin: 20px;
+    box-shadow: 2px 2px 4px greenyellow;
+    width:40%;
+    margin-left:30px;
+}
+#sub2{
+    text-align: center;
+    margin: 20px;
+    box-shadow: 2px 2px 4px greenyellow;
+    width:30%;
+    margin-left:12%;
+}
+main h2{
+    color: black;
+    background-color:yellow;
+    margin-top:3px;
+}
+li{
+    color: white;
+}
+#icon{
+    color:blue;
+    font-size: 30px;
+    position: absolute;
+    margin-top:80px;
+    margin-left: -120px;
+    border-radius: 20%;
+    box-shadow:2px 0 0 rgb(223, 17, 17);
+}
+#skill{
+    text-align: center;
+    color:rgb(145, 141, 141);
+}
+#skill:hover{
+     color: white;
+     transform: scale(1.1);
+}
+section{
+   position:relative; 
+    background: radial-gradient(circle at top center,
+                black 0%,
+                rgb(93, 2, 2) 70% );
+                background-attachment: fixed;
+    padding-top: 40px;
+    padding-bottom:34px;
+   
+}
+#foot1{
+    background-color: black;
+    color: white;
+}
+#flex1:hover{
+    transform: scale(1.01);
+}
+#sub1:hover{
+     background: linear-gradient(125deg,rgb(193, 86, 180),rgb(82, 151, 82));
+     transition:0.07s;
+     transform: scale(1.01);
+}
+#sub2:hover{
+     background: linear-gradient(125deg,rgb(193, 86, 180),rgb(82, 151, 82));
+     transition:0.07s;
+     transform: scale(1.01);
+}
